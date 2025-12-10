@@ -31,6 +31,12 @@ const HomePage = () => {
           "@type": "LocalBusiness",
           "name": "Al Ettisam Car Seat Upholstery",
           "image": "/hero-car.jpg",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://alettisamcarseatsupholstery.com/logo.png",
+            "width": 250,
+            "height": 250
+          },
           "description": "Expert car seat upholstery, repair, and custom leather interiors in Dubai",
           "telephone": "+971-55-4969599",
           "email": "mdullah163@gmail.com",

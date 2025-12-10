@@ -2,9 +2,15 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Al Ettisam Car Seat Upholstery Dubai",
-  "image": "https://al-ettisam-upholstery.com/hero-car.jpg",
-  "@id": "https://al-ettisam-upholstery.com",
-  "url": "https://al-ettisam-upholstery.com",
+  "image": "https://alettisamcarseatsupholstery.com/hero-car.jpg",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://alettisamcarseatsupholstery.com/logo.png",
+    "width": 250,
+    "height": 250
+  },
+  "@id": "https://alettisamcarseatsupholstery.com",
+  "url": "https://alettisamcarseatsupholstery.com",
   "telephone": "+971554969599",
   "address": {
     "@type": "PostalAddress",

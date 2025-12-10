@@ -18,6 +18,26 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Al Ettisam Car Seat Upholstery",
   description: "Al Ettisam provides expert car seat upholstery, custom leather interiors, and professional repairs in Dubai. Transform your car's interior with our quality craftsmanship.",
+  icons: {
+    icon: '/icon.png',
+    apple: '/icon.png',
+  },
+  openGraph: {
+    title: "Al Ettisam Car Seat Upholstery",
+    description: "Expert car seat upholstery, custom leather interiors, and professional repairs in Dubai.",
+    url: "https://alettisamcarseatsupholstery.com",
+    siteName: "Al Ettisam Car Seat Upholstery",
+    images: [
+      {
+        url: "https://alettisamcarseatsupholstery.com/logo.png",
+        width: 250,
+        height: 250,
+        alt: "Al Ettisam Car Seat Upholstery Logo",
+      },
+    ],
+    locale: "en_AE",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
