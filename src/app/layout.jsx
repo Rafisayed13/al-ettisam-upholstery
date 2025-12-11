@@ -19,6 +19,16 @@ export const metadata = {
   title: "Al Ettisam Car Seat Upholstery",
   description: "Al Ettisam provides expert car seat upholstery, custom leather interiors, and professional repairs in Dubai. Transform your car's interior with our quality craftsmanship.",
   metadataBase: new URL('https://alettisamcarseatsupholstery.com'),
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
   openGraph: {
     title: "Al Ettisam Car Seat Upholstery",
     description: "Expert car seat upholstery, custom leather interiors, and professional repairs in Dubai.",
