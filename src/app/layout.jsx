@@ -21,13 +21,13 @@ export const metadata = {
   metadataBase: new URL('https://alettisamcarseatsupholstery.com'),
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico', sizes: '48x48' },
+      { url: '/logo.png', sizes: '250x250', type: 'image/png' },
     ],
     apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/logo.png', sizes: '180x180', type: 'image/png' },
     ],
+    shortcut: '/favicon.ico',
   },
   openGraph: {
     title: "Al Ettisam Car Seat Upholstery",
